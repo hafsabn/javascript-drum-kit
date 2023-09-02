@@ -1,0 +1,54 @@
+body{ 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Photo by <a href="https://unsplash.com/@brunocervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">BRUNO CERVERA</a> on <a href="https://unsplash.com/photos/dtqlaz4HyHw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
+html{
+    background-image: url('bruno-cervera-dtqlaz4HyHw-unsplash.jpg') ;
+    background-position:  center bottom;
+    background-repeat: no-repeat;
+}
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.keys{
+    align-self: center;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+.key{
+    border: 4px solid black;
+    background-color: rgba(115, 106, 106, 0.249);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    transition: all .07s ease;
+    text-shadow: 0 0 .5rem black;
+}
+.playing{
+    border: 5px solid rgb(142, 217, 249);
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgb(142, 217, 249);
+}
+.key p{
+    font-size: 20px;
+    color: white;
+}
+.key span{
+    /* color: rgb(235, 235, 79); */
+    color: rgb(113, 205, 245);
+    font-size: 16px;
+    font-weight: bold;
+}
