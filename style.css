@@ -1,15 +1,21 @@
 body{ 
     height: 100vh;
-    display: flex;
+     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
+    align-items: center;
 }
-/*Photo by <a href="https://unsplash.com/@brunocervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">BRUNO CERVERA</a> on <a href="https://unsplash.com/photos/dtqlaz4HyHw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  */
+
 html{
     background-image: url('bruno-cervera-dtqlaz4HyHw-unsplash.jpg') ;
     background-position:  center bottom;
     background-repeat: no-repeat;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -17,7 +23,7 @@ html{
     padding: 0;
 }
 .keys{
-    align-self: center;
+    margin: auto;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -51,4 +57,13 @@ html{
     color: rgb(113, 205, 245);
     font-size: 16px;
     font-weight: bold;
+}
+
+p{
+    color: wheat;
+    text-align: center;
+    margin: 10px;
+}
+p a {
+    color: wheat;
 }
